@@ -1,0 +1,21 @@
+Exercici 2
+A)  	Sense excepcions: 1 --> 2 --> 4
+	Amb una excepcio al bloc 2: 1 --> 2 --> 3 --> 4
+	Amb una excepcio al bloc 1: 1 
+
+B)	Sense excepcions: 1 --> 2 --> 5 
+	Amb excepcio de tipus aritmetic: 1 --> 2 --> 3 --> 5
+	Acces a un objecte nul: 1 --> 2 --> 4 --> 5 
+	Excepcio d'un altre tipus: 1 --> 2
+
+C)	Sense excepcions: 1 --> 2 --> 5
+	Amb excepcio de tipus aritmetic: 1 --> 2 --> 3 --> 5
+	Excepcio d'un altre tipus diferent: 1 --> 2 --> 4 --> 5
+
+D) 	Sense excepcions: 1 --> 2 --> 5
+	Amb excepcio de tipus aritmetic:  1 --> 2 --> 3 --> 5
+	Excepcio d'un altre tipus diferent:  1 --> 2 --> 3 --> 5
+
+E)	Sense excepcions: 1 --> 2 --> 4 --> 5
+	Amb excepcio de tipus aritmetic: 1 --> 2 --> 3 --> 4 --> 5
+	Excepcio d'un altre tipus diferent: 1 --> 2 --> 4
